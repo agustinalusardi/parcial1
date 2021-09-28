@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+
+@media (min-width: 576px) and (max-width: 767px) { 
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+	nav{
+		width: 60%;
+	}
+	#credito{
+		width: 35%;
+		text-align: center;
+	}
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../img/pattern.jpg);
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.content {
+	width: 80%;
+	background-color: #e84393;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	width: 100%;
+	height: 90px;
+	background-color:#e84393;
+	padding-left: 1%;
+}
+
+#logo{
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-top: 8px;
+	
+}
+.galeria{
+	padding: 5%;
+	margin-top: auto;
+}
+
+#titulo{
+	float:left;
+	position: relative;
+	top: 20%;
+	left: 5%;
+	font-family:'Roboto', sans-serif; 
+	font-weight: bold;
+	font-size: 30pt;
+}
+
+#titulo2{
+	margin-top: 2%;
+	margin-left: 5%;
+	font-size: 20pt;
+	color: black;
+	font-family:'Roboto', sans-serif; 
+}
+
+#titulo3{
+	margin-top: 2%;
+	margin-left: 5%;
+	font-size: 16pt;
+	color: black;
+	font-family:'Roboto', sans-serif; 
+}
+
+#titulobody{
+	margin-top: 2%;
+	margin-left: 5%;
+	font-size: 18pt;
+	color: black;
+}
+
+#titulobody2{
+	margin-top: 2%;
+	margin-left: 5%;
+	font-size: 14pt;
+	color: black;
+}
+
+.inicio{
+	text-decoration: none;
+	color: black;
+
+}
+
+nav{
+	height: 50px;
+	background-color:#e84393;
+	float: right;
+	margin-right: 4%;
+}
+
+article{
+	width: 100%;
+	background-color:#f1de01;
+}
+
+#imgindex{
+	background-image: url(../img/fondoindex.jpg);
+	background-size: cover;
+}
+
+
+#resumen{
+	float: left;
+	position: relative;
+	top: 25%;
+	left: 10%;
+	padding: 15px;
+	width: 250px;
+	background-color: rgba(255, 51, 119, 0.5);
+	border-radius: 5px;
+	border: dotted;
+	border-color: #ffec51;
+	border-width: 5px;
+	box-shadow: -21px -12px 16px rgba(255, 236, 81, 0.3);
+}
+
+#galeria{
+	padding-top: 1%;
+}
+
+ #galeria li{
+ 	display: inline-block;
+	padding-top: 1%;
+ }
+
+ #galeria li a{
+ 	width: 200px;
+ }
+
+#contenedorgaleria{
+	width: 100%
+	padding-right: 5%;
+	padding-top: 5%;
+	font-size: 9pt;
+    text-align: center;
+}
+
+#contenido{
+    line-height: 15px;
+    padding: 0 10px;
+    text-align: justify;
+}
+
+
+
+
+footer{
+	width: 100%;
+	height: 45px;
+	padding-left: 10px;
+	background-color:#e84393;
+	padding-right: 1%;
+	text-decoration: none;
+}
+
+#menu{
+	padding: 0;
+}
+
+#menu li{
+	display: inline-block;
+	padding-top: 2%;
+}
+
+#menu li a{
+	width: 150px;
+	font-size: 14pt;
+	text-align: center;
+	text-decoration: none;
+	float: right;
+	margin-top: 25px;
+	padding: 5px;
+	color: black;
+	background-color:#f1de01;
+	border-radius: 10px;
+}
+
+#logo2 img{
+	align-items: center;
+	width: 70px;
+	height: 35px;
+	float: left;
+	margin-top: 5px;
+}
+
+p{  font-size: 20px;
+	color: black;
+
+}
+
+#credito{
+	position: relative;
+	padding-top: 10px;
+	left: 200px;
+	float: left;
+	width: 56%;
+	color: black;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+#redes{
+	float: right;
+}
+
+ #redes li{
+ 	display: inline-block;
+	padding-top: 5%;
+ }
+
+ #redes li a{
+ 	width: 30px;
+ }
+
+ .anchoredes{
+ 	width: 100px;
+ 	margin-top: -32px;
+ }
+
+.anchogaleria{
+	width: 300px;
+}
+
+ .anchoform{
+ 	width: 100%
+ }
+
+#pdf{
+	margin-top: 25px;
+	display: block;
+    margin: auto;
+}
+
+#contenedortexto{
+	width: 60%;
+	margin-left: 5%;
+}
+
+#img{
+	float: right;
+	width: 300px;
+    height: 300px;
+	margin-top: -330px;
+}
+
+.pdf-container{
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
